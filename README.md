@@ -52,7 +52,8 @@ choco uninstall <app_name_here> -y
 - [PeaZip](#peazip) (A great free archive app, can open .zip, .rar, .tar, .7z, etc...)
 - [Plex](#plex) (Play your own media in a Netflix like UI)
 - [Steam](#steam) (Steam client for PC gaming)
-- [VS Code](#vs-code)  (Probably the best code editor)
+- [VS Code](#vs-code)(Probably the best code editor)
+- [yt-dlp](#yt-dlp) (Command line app to download from YouTube) 
 
 
 ## List of all apps
@@ -107,6 +108,10 @@ choco install steam
 #### VS Code
 ```
 choco install vs-code
+```
+#### yt-dlp
+```
+choco install yt-dlp
 ```
 # Auto Updating
 You can use a simple .bat file to auto update all your apps.
