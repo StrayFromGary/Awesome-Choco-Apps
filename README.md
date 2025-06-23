@@ -49,6 +49,7 @@ choco uninstall <app_name_here> -y
 - [Libreoffice](#libreoffice) (The best free office suite)
 - [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
 - [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
+- [PeaZip](#peazip) (A great free archive app, can open .zip, .rar, .tar, .7z, etc...)
 - [Plex](#plex) (Play your own media in a Netflix like UI)
 - [Steam](#steam) (Steam client for PC gaming)
 - [VS Code](#vs-code)  (Probably the best code editor)
@@ -94,6 +95,10 @@ choco install obs
 #### Plex
 ```
 choco install plex
+```
+#### PeaZip
+```
+choco install peazip
 ```
 #### Steam
 ```
