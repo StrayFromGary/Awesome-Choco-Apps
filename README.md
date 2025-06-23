@@ -10,12 +10,12 @@
 # Table of content
 - [Installing Chocolatey](#installing-chocolatey)
 - [Updating apps](#updating-apps)
-- [Removing apps](#removing-apps)
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
+- [Removing apps](#removing-apps)
 - [Application list](#application-list)
   - [Main apps](#main-apps)
-  
+
 # Installing Chocolatey 
 
 > [!NOTE]
@@ -30,15 +30,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 choco upgrade all -y
 ```
-# Removing apps
-```
-choco uninstall <app_name_here> -y
-```
-> [!NOTE]
-> Replace <app_name_here> with your app name for example
-> ```
-> choco uninstall obs -y
-> ```
 # Auto Updating
 Copy the code below and paste it into a new notepad file, save it as choco-update.bat and then run the .bat file. 
 
@@ -67,6 +58,17 @@ exit
 # Batch install
 You can also use a .bat script to batch install, for example install a bunch of apps with a fresh Windows install.
 
+# Removing apps
+```
+choco uninstall <app_name_here> -y
+```
+> [!NOTE]
+> Replace <app_name_here> with your app name for example
+> ```
+> choco uninstall obs -y
+> ```
+
+---
 # Application List
 ## Main Apps
 - [Avidemux](#Avidemux) (Free simple video editing and trimming)
