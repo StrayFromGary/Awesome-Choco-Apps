@@ -11,11 +11,11 @@
 - [Installing Chocolatey](#installing-chocolatey)
 - [Updating apps](#updating-apps)
 - [Removing apps](#removing-apps)
-- [Application list](#application-list)
-  - [Main apps](#main-apps)
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
-
+- [Application list](#application-list)
+  - [Main apps](#main-apps)
+  
 # Installing Chocolatey 
 
 > [!NOTE]
@@ -39,6 +39,34 @@ choco uninstall <app_name_here> -y
 > ```
 > choco uninstall obs -y
 > ```
+# Auto Updating
+Copy the code below and paste it into a new notepad file, save it as choco-update.bat and then run the .bat file. 
+
+Or, you can download the complete .bat file here. [Download](https://github.com/MiTechMess/Awesome-Choco-Apps/blob/main/scripts/choco-auto-update.bat)
+```
+@echo off
+
+if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
+echo ==========================================
+echo Awesome Choco Apps (Auto Update)
+echo ==========================================
+echo -- Updating choco apps... Please wait. 
+echo ==========================================
+echo,
+
+choco upgrade all -y
+
+cls
+echo ====================================================================================
+echo - All choco apps updated. 
+echo - Closing in 5 seconds.
+echo ====================================================================================
+timeout /t 5 
+exit
+```
+# Batch install
+You can also use a .bat script to batch install, for example install a bunch of apps with a fresh Windows install.
+
 # Application List
 ## Main Apps
 - [Avidemux](#Avidemux) (Free simple video editing and trimming)
@@ -119,30 +147,3 @@ choco install vs-code
 ```
 choco install yt-dlp
 ```
-# Auto Updating
-Copy the code below and paste it into a new notepad file, save it as choco-update.bat and then run the .bat file. 
-
-Or, you can download the complete .bat file here. [Download](https://github.com/MiTechMess/Awesome-Choco-Apps/blob/main/scripts/choco-auto-update.bat)
-```
-@echo off
-
-if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
-echo ==========================================
-echo Awesome Choco Apps (Auto Update)
-echo ==========================================
-echo -- Updating choco apps... Please wait. 
-echo ==========================================
-echo,
-
-choco upgrade all -y
-
-cls
-echo ====================================================================================
-echo - All choco apps updated. 
-echo - Closing in 5 seconds.
-echo ====================================================================================
-timeout /t 5 
-exit
-```
-# Batch install
-You can also use a .bat script to batch install, for example install a bunch of apps with a fresh Windows install.
