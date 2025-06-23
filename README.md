@@ -45,6 +45,7 @@ choco uninstall <app_name_here> -y
 - [Bleachbit](#bleachbit) (Clean up system junk)
 - [Blender](#blender) (Free 2D and 3D modling software)
 - [Discord](#discord) (Online Voice Communication)
+- [GitHub Desktop](#github-desktop)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
 - [Libreoffice](#libreoffice) (The best free office suite)
@@ -73,6 +74,10 @@ choc install blender
 #### Discord
 ```
 choco install dicord
+```
+#### Github Desktop
+```
+choco install github-desktop
 ```
 #### Filezilla
 ```
