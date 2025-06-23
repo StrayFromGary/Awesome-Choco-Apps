@@ -88,6 +88,7 @@ choco uninstall <app_name_here> -y
 - [GitHub Desktop](#github-desktop) (Github Desktop app for collab coding)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
+- [Krita](#krita) (Free open source photoshop alternative)
 - [Libreoffice](#libreoffice) (The best free office suite)
 - [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
 - [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
@@ -95,6 +96,7 @@ choco uninstall <app_name_here> -y
 - [Plex](#plex) (Play your own media in a Netflix like UI)
 - [Steam](#steam) (Steam client for PC gaming)
 - [VS Code](#vs-code)(Probably the best code editor)
+- [Veracrypt](#veracrypt) (Folder and file encryption)
 - [yt-dlp](#yt-dlp) (Command line app to download from YouTube) 
 
 
@@ -127,6 +129,10 @@ choco install filezilla
 ```
 choco install firefox
 ```
+#### Krita
+```
+choco install krita
+```
 #### Libreoffice
 ```
 choco install libreoffice-fresh
@@ -154,6 +160,10 @@ choco install steam
 #### VS Code
 ```
 choco install vs-code
+```
+#### Veracrypt
+```
+choco install veracrypt
 ```
 #### yt-dlp
 ```
