@@ -14,6 +14,7 @@
 - [Application list](#application-list)
   - [Main apps](#main-apps)
 - [Auto updating](#auto-updating)
+- [Batch install](#batch-install)
 
 # Installing Chocolatey 
 
@@ -139,3 +140,5 @@ echo ===========================================================================
 timeout /t 5 
 exit
 ```
+# Batch install
+You can also use a .bat script to batch install, for example install a bunch of apps with a fresh Windows install.
