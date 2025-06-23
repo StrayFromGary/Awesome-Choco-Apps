@@ -9,6 +9,7 @@
 
 # Table of content
 - [Installing Chocolatey](#installing-chocolatey)
+- [Install apps](#install-apps)
 - [Updating apps](#updating-apps)
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
@@ -26,6 +27,15 @@
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+# Installing apps
+Its simple to install apps once Chocolatey is installed you just run the code below replacing <app_name> with the name.
+
+```
+choco install <app_name>
+```
+
+Or, you can use the prefilled codes [here](#application-list)
+
 # Updating apps
 ```
 choco upgrade all -y
