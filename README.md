@@ -88,7 +88,7 @@ choco uninstall <app_name_here> -y
 ---
 # Application List
 ## Main Apps
-- [Avidemux](#Avidemux) (Free simple video editing and trimming)
+- [Avidemux](#avidemux) (Free simple video editing and trimming)
 - [Bleachbit](#bleachbit) (Clean up system junk)
 - [Blender](#blender) (Free 2D and 3D modling software)
 - [Discord](#discord) (Online Voice Communication)
