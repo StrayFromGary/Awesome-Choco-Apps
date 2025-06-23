@@ -9,7 +9,7 @@
 
 # Table of content
 - [Installing Chocolatey](#installing-chocolatey)
-- [Installing apps](#install-apps)
+- [Installing apps](#installing-apps)
 - [List all installed apps](#list-all-installed-apps)
 - [Updating apps](#updating-apps)
 - [Auto updating](#auto-updating)
@@ -37,7 +37,7 @@ choco install <app_name>
 
 Or, you can use the prefilled codes [here](#application-list)
 
-### List all installed apps
+# List all installed apps
 
 ```
 choco list
