@@ -120,10 +120,9 @@ choco install vs-code
 choco install yt-dlp
 ```
 # Auto Updating
-You can use a simple .bat file to auto update all your apps.
-
 Copy the code below and paste it into a new notepad file, save it as choco-update.bat and then run the .bat file. 
 
+Or, you can download the complete .bat file here. [Download](https://github.com/MiTechMess/Awesome-Choco-Apps/blob/main/scripts/choco-auto-update.bat)
 ```
 @echo off
 
