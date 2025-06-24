@@ -15,8 +15,13 @@
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
 - [Removing apps](#removing-apps)
-- [Application list](#application-list)
+### Main apps
+- [Application list (All)](#application-list)
   - [Main apps](#main-apps)
+### Gaming
+  - [GPU Drivers](#gpu-drivers)
+  - [Game Launchers](#game-launchers)
+  - [Video tools](#video-tools)
 
 # Installing Chocolatey 
 
@@ -92,26 +97,31 @@ choco uninstall <app_name_here> -y
 - [Bleachbit](#bleachbit) (Clean up system junk)
 - [Blender](#blender) (Free 2D and 3D modling software)
 - [Discord](#discord) (Online Voice Communication)
-- [Epic Games Launcher](#epic-games-launcher) (Epic Games Launcher)
 - [GitHub Desktop](#github-desktop) (Github Desktop app for collab coding)
-- [GOG Galaxy](#gog-galaxy) (GOG.com Game Launcher and Downloader)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
-- [FFMPEG](#ffmpeg) (video and audio command line toolkit)
 - [Krita](#krita) (Free open source photoshop alternative)
 - [Libreoffice](#libreoffice) (The best free office suite)
-- [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
 - [Notepad++](#notepad) (Great free text editor)
-- [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
 - [PeaZip](#peazip) (A great free archive app, can open .zip, .rar, .tar, .7z, etc...)
 - [Plex](#plex) (Play your own media in a Netflix like UI)
-- [Steam](#steam) (Steam client for PC gaming)
 - [Teracopy](#teracopy) (Better than windows explorer for cut, copy and pasting files)
 - [Tenacity](#tenacity) (free better alternative to Audacity)
 - [VS Code](#vs-code)(Probably the best code editor)
 - [Veracrypt](#veracrypt) (Folder and file encryption)
-- [yt-dlp](#yt-dlp) (Command line app to download from YouTube) 
 
+### GPU Drivers
+  - [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
+
+### Game Launchers
+  - [Epic Games Launcher](#epic-games-launcher) (Epic Games Launcher)
+  - [GOG Galaxy](#gog-galaxy) (GOG.com Game Launcher and Downloader)
+  - [Steam](#steam) (Steam client for PC gaming)
+
+### Video tools
+  - [FFMPEG](#ffmpeg) (video and audio command line toolkit)
+  - [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
+  - [yt-dlp](#yt-dlp) (Command line app to download from YouTube)
 
 ## List of all apps
 #### Avidemux
