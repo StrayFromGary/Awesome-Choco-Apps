@@ -37,7 +37,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Its simple to install apps once Chocolatey is installed you just run the code below replacing <app_name> with the name.
 
 ```
-choco install <app_name>
+choco install <app_name> -y
 ```
 
 Or, you can use the prefilled codes [here](#application-list)
