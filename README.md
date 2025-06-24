@@ -90,8 +90,11 @@ choco uninstall <app_name_here> -y
 > ```
 > choco uninstall obs -y
 > ```
+
 # Uninstall Chocolatey
+
 Most of Chocolatey is contained in ```C:\ProgramData\chocolatey``` or whatever ```$env:ChocolateyInstall``` evaluates to. You can simply delete that folder.
+
 ---
 # Application List
 ## Main Apps
