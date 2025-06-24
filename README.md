@@ -8,6 +8,7 @@
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
 - [Removing apps](#removing-apps)
+- [Uninstall Chocolatey](#uninstall-hocolatey)
 ### Main apps
 - [Application list (All)](#application-list)
   - [Main apps](#main-apps)
@@ -84,6 +85,10 @@ You can also use a .bat script to batch install, for example install a bunch of 
 ```
 choco uninstall <app_name_here> -y
 ```
+# Uninstall Chocolatey
+Most of Chocolatey is contained in ```C:\ProgramData\chocolatey``` or whatever ```$env:ChocolateyInstall``` evaluates to. You can simply delete that folder.
+
+
 > [!NOTE]
 > Replace <app_name_here> with your app name for example
 > ```
