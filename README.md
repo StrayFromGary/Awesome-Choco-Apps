@@ -1,12 +1,5 @@
 # Awesome Choco Apps
 
-> [!WARNING]
-> You will need to install Chocolatey package manager before you can install these apps.
->
-> You can install it here : [Chocolatey Download](https://chocolatey.org/install)
->
-> Or you can follow the instructions here : [Installing Chocolatey](#installing-chocolatey)
-
 # Table of content
 - [Installing Chocolatey](#installing-chocolatey)
 - [Installing apps](#installing-apps)
@@ -24,6 +17,13 @@
   - [Video tools](#video-tools)
 
 # Installing Chocolatey 
+
+> [!WARNING]
+> You will need to install Chocolatey package manager before you can install these apps.
+>
+> You can copy the code below and follow the instructions to install it using Powershell. 
+> Or
+> You can install it from the offical website here : [Chocolatey Download](https://chocolatey.org/install)
 
 > [!NOTE]
 > You will need to run the command below in a new admin Powershell window.
