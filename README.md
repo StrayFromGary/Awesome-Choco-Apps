@@ -92,6 +92,7 @@ choco uninstall <app_name_here> -y
 - [Bleachbit](#bleachbit) (Clean up system junk)
 - [Blender](#blender) (Free 2D and 3D modling software)
 - [Discord](#discord) (Online Voice Communication)
+- [Epic Games Launcher](#epic-games-launcher) (Epic Games Launcher)
 - [GitHub Desktop](#github-desktop) (Github Desktop app for collab coding)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
@@ -125,6 +126,10 @@ choc install blender
 #### Discord
 ```
 choco install dicord
+```
+#### Epic Games Launcher
+```
+choco install epicgameslauncher
 ```
 #### Github Desktop
 ```
