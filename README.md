@@ -8,7 +8,7 @@
 - [Auto updating](#auto-updating)
 - [Batch install](#batch-install)
 - [Removing apps](#removing-apps)
-- [Uninstall Chocolatey](#uninstall-hocolatey)
+- [Uninstall Chocolatey](#uninstall-chocolatey)
 ### Main apps
 - [Application list (All)](#application-list)
   - [Main apps](#main-apps)
