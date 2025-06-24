@@ -95,6 +95,7 @@ choco uninstall <app_name_here> -y
 - [GitHub Desktop](#github-desktop) (Github Desktop app for collab coding)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
+- [FFMPEG](#ffmpeg) (video and audio command line toolkit)
 - [Krita](#krita) (Free open source photoshop alternative)
 - [Libreoffice](#libreoffice) (The best free office suite)
 - [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
@@ -135,6 +136,10 @@ choco install filezilla
 #### Firefox
 ```
 choco install firefox
+```
+#### FFMPEG
+```
+choco install ffmpeg
 ```
 #### Krita
 ```
