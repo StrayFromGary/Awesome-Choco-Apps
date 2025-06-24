@@ -22,17 +22,17 @@
 > You will need to install Chocolatey package manager before you can install these apps.
 >
 > You can copy the code below and follow the instructions to install it using Powershell. 
-> Or
-> You can install it from the offical website here : [Chocolatey Download](https://chocolatey.org/install)
+> 
+> Or, You can install it from the offical website here : [Chocolatey Download](https://chocolatey.org/install)
 
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 > [!NOTE]
 > You will need to run the command below in a new admin Powershell window.
 >
 > To open Powershell as an admin you can right click the Powershell icon and click 'Run as administrator'.
 
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-```
 # Installing apps
 Its simple to install apps once Chocolatey is installed you just run the code below replacing <app_name> with the name.
 
