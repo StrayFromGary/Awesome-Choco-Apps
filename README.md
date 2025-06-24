@@ -94,6 +94,7 @@ choco uninstall <app_name_here> -y
 - [Discord](#discord) (Online Voice Communication)
 - [Epic Games Launcher](#epic-games-launcher) (Epic Games Launcher)
 - [GitHub Desktop](#github-desktop) (Github Desktop app for collab coding)
+- [GOG Galaxy](#gog-galaxy) (GOG.com Game Launcher and Downloader)
 - [Filezilla](#filezilla) (FTP File transfer)
 - [Firefox](#firefox) (The best free browser that isn't chrome)
 - [FFMPEG](#ffmpeg) (video and audio command line toolkit)
@@ -134,6 +135,10 @@ choco install epicgameslauncher
 #### Github Desktop
 ```
 choco install github-desktop
+```
+#### GOG Galaxy
+```
+choco install goggalaxy
 ```
 #### Filezilla
 ```
