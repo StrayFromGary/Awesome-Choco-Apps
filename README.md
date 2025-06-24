@@ -101,6 +101,7 @@ choco uninstall <app_name_here> -y
 - [Krita](#krita) (Free open source photoshop alternative)
 - [Libreoffice](#libreoffice) (The best free office suite)
 - [Nvidia Display Driver](#nvidia-display-driver) (Drivers for Nvidia GPUs)
+- [Notepad ++](#notepad++) (Great free text editor that is great for coding, simple and basic.)
 - [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
 - [PeaZip](#peazip) (A great free archive app, can open .zip, .rar, .tar, .7z, etc...)
 - [Plex](#plex) (Play your own media in a Netflix like UI)
@@ -163,6 +164,10 @@ choco install libreoffice-fresh
 #### Nvidia Display Driver 
 ```
 choco install nvidia-display-driver
+```
+#### Notepad++
+```
+choco install notepadplusplus
 ```
 #### OBS Studio
 ```
