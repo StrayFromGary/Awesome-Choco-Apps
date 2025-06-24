@@ -107,6 +107,7 @@ choco uninstall <app_name_here> -y
 - [Plex](#plex) (Play your own media in a Netflix like UI)
 - [Steam](#steam) (Steam client for PC gaming)
 - [Teracopy](#teracopy) (Better than windows explorer for cut, copy and pasting files)
+- [Tenacity](#tenacity) (free better alternative to Audacity)
 - [VS Code](#vs-code)(Probably the best code editor)
 - [Veracrypt](#veracrypt) (Folder and file encryption)
 - [yt-dlp](#yt-dlp) (Command line app to download from YouTube) 
@@ -188,6 +189,10 @@ choco install steam
 #### Teracopy
 ```
 choco install teracopy
+```
+#### Tenacity
+```
+choco install tenacity
 ```
 #### VS Code
 ```
