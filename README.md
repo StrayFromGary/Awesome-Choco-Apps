@@ -103,6 +103,7 @@ choco uninstall <app_name_here> -y
 - [PeaZip](#peazip) (A great free archive app, can open .zip, .rar, .tar, .7z, etc...)
 - [Plex](#plex) (Play your own media in a Netflix like UI)
 - [Steam](#steam) (Steam client for PC gaming)
+- [Teracopy](#teracopy) (Better than windows explorer for cut, copy and pasting files)
 - [VS Code](#vs-code)(Probably the best code editor)
 - [Veracrypt](#veracrypt) (Folder and file encryption)
 - [yt-dlp](#yt-dlp) (Command line app to download from YouTube) 
@@ -168,6 +169,10 @@ choco install peazip
 #### Steam
 ```
 choco install steam
+```
+#### Teracopy
+```
+choco install teracopy
 ```
 #### VS Code
 ```
