@@ -124,6 +124,7 @@ Most of Chocolatey is contained in ```C:\ProgramData\chocolatey``` or whatever `
   - [Steam](#steam) (Steam client for PC gaming)
 
 ### Video tools
+  - [MPC-HC](#mpc-hc) (Great free video player that looks outdated but supports just about anything.)
   - [FFMPEG](#ffmpeg) (video and audio command line toolkit)
   - [OBS Studio](#obs-studio) (The best software for game streaming and screen recording)
   - [yt-dlp](#yt-dlp) (Command line app to download from YouTube)
@@ -179,7 +180,7 @@ choco install libreoffice-fresh
 ```
 #### MPC-HC
 ```
-choco install MPC-HC
+choco install mpc-hc
 ```
 #### Nvidia Display Driver 
 ```
