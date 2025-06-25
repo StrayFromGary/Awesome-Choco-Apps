@@ -177,6 +177,10 @@ choco install krita
 ```
 choco install libreoffice-fresh
 ```
+#### MPC-HC
+```
+choco install MPC-HC
+```
 #### Nvidia Display Driver 
 ```
 choco install nvidia-display-driver
