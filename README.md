@@ -3,6 +3,7 @@
 # Table of content
 - [Installing Chocolatey](#installing-chocolatey)
 - [Installing apps](#installing-apps)
+  - [Allow Global Confirmation](#allow-global-confirmation)
 - [List all installed apps](#list-all-installed-apps)
 - [Updating apps](#updating-apps)
 - [Auto updating](#auto-updating)
