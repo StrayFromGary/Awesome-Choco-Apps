@@ -40,6 +40,8 @@ Its simple to install apps once Chocolatey is installed you just run the code be
 ```
 choco install <app_name> -y
 ```
+
+## Allow Global Confirmation
 > [!NOTE]
 > You can remove the need to add -y to the install commaned if you run the command below.
 >
@@ -138,6 +140,10 @@ Most of Chocolatey is contained in ```C:\ProgramData\chocolatey``` or whatever `
   - [yt-dlp](#yt-dlp) (Command line app to download from YouTube)
 
 ## List of all apps
+> [!NOTE]
+> Don't forget to to set choco to [allow global confirmation](#allow-global-confirmation)
+>
+
 #### Avidemux
 ```
 choco install avidemux
