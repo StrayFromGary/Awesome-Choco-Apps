@@ -46,7 +46,7 @@ choco install <app_name> -y
 > To open Powershell as an admin you can right click the Powershell icon and click 'Run as administrator'.
 > 
 ```
-code here.
+choco feature enable -n allowGlobalConfirmation
 ```
 
 Or, you can use the prefilled codes [here](#application-list)
