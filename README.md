@@ -40,6 +40,14 @@ Its simple to install apps once Chocolatey is installed you just run the code be
 ```
 choco install <app_name> -y
 ```
+> [!NOTE]
+> You can remove the need to add -y to the install commaned if you run the command below.
+>
+> To open Powershell as an admin you can right click the Powershell icon and click 'Run as administrator'.
+> 
+```
+code here.
+```
 
 Or, you can use the prefilled codes [here](#application-list)
 
