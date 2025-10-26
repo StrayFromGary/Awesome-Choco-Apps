@@ -217,6 +217,10 @@ choco install plex
 ```
 choco install peazip
 ```
+### Rclone
+```
+choco install rclone
+```
 #### Steam
 ```
 choco install steam
@@ -232,6 +236,10 @@ choco install tenacity
 #### VS Code
 ```
 choco install vs-code
+```
+#### VSCodium
+```
+choco install vscodium
 ```
 #### Veracrypt
 ```
